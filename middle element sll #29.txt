@@ -13,13 +13,13 @@ public class sll {
     }
 
     public sll() {
-        head = null; 
+        head = null; // Initialize head to null in constructor
     }
 
     public sll create(sll list, int data) {
         Node newnode = new Node(data);
         if (list.head == null) {
-            list.head = newnode; 
+            list.head = newnode; // Update head when list is empty
         } else {
             Node last = list.head;
             while (last.next != null) {
@@ -30,7 +30,7 @@ public class sll {
         return list;
     }
 
-public int getLength() {
+public int getLength() { // To get the size of the single linked list
     int count = 0;
     Node current = head;
     while (current != null) {
@@ -41,7 +41,7 @@ public int getLength() {
 }
 
 
-public void middleElement(sll list) {
+public void middleElement(sll list) { // Method to get middle element of the single linked list
     int length = list.getLength();
     Node current = list.head;
 
