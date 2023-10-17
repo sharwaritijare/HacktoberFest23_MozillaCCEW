@@ -33,9 +33,11 @@ This project aims to build a weather prediction model that can forecast weather 
 5. **Model Comparison:**
   Based on the MAE and MSE values, Linear Regression is the best-performing model for your weather prediction, followed by Random Forest and KNN Regressor. These     metrics indicate the average prediction error and the squared error, respectively, where lower values are generally better.
 
-6. **Visualisation:**   
-   ![Plot Between Actual values and predicted values](Images/diffplot.jpg)
+6. **Visualisation:**
+   - Plot Between Actual values and predicted values:
+   ![Plot Between Actual values and predicted values](https://github.com/sejalphatangare/HacktoberFest23_MozillaCCEW/blob/5ce057377370c06ba1f5a648387ad63ec8b7c550/Images/diffplot.png)
 
+   - 
    
 
 8. 
